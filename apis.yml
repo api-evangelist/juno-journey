@@ -1,8 +1,18 @@
 aid: juno-journey
 name: Juno Journey
-description: Juno Journey is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Juno Journey is an AI-powered Learning & Development (L&D) platform that unifies
+  employee training, personalized development planning, skills analytics, and
+  performance management into a single "HumAIn Workforce Platform." Its Juno Agents
+  automate course authoring, build adaptive personal development plans, deliver
+  real-time in-context knowledge assistance, and surface live capability analytics,
+  while a built-in LMS aggregates 150+ external content providers. The product
+  connects to HRIS, identity, messaging, calendar, and performance systems through
+  pre-built integrations (Slack, Okta, Workday, BambooHR, HiBob, Personio,
+  Cornerstone, Google Drive, Microsoft Azure). Juno Journey is a portfolio company
+  of Insight Partners. As of this profile it publishes a marketing site, pricing,
+  a knowledge hub, a blog, a status page, and a public trust center (ISO/IEC 27001,
+  GDPR, CCPA) but exposes no public developer API, OpenAPI, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/juno-journey/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +20,31 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://assets.junojourney.com/commercial-site/images/favicon.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Learning and Development
+- LMS
+- Human Resources
+- Employee Training
+- Performance Management
+- Skills Analytics
+- Artificial Intelligence
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +54,29 @@ maintainers:
 common:
 - type: Website
   url: https://www.junojourney.com/
+- type: Pricing
+  url: https://www.junojourney.com/pricing
+- type: Login
+  url: https://auth.junojourney.com/auth/login
+- type: HelpCenter
+  url: https://www.junojourney.com/knowledge-hub
+- type: Blog
+  url: https://www.junojourney.com/blog
+- type: TermsOfService
+  url: https://www.junojourney.com/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.junojourney.com/legal/privacy-policy
+- type: StatusPage
+  url: https://status.junojourney.com/
+- type: TrustCenter
+  url: https://trust.junojourney.com/
+- type: Compliance
+  url: https://trust.junojourney.com/
+- type: TrustCenter
+  name: Trust Center artifact
+  url: security/juno-journey-trust-center.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

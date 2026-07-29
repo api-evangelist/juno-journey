@@ -1,0 +1,32 @@
+generated: '2026-07-19'
+method: searched
+probe: false
+source: https://trust.junojourney.com/
+url: https://trust.junojourney.com/
+certifications:
+- ISO/IEC 27001
+- GDPR
+- CCPA
+documents:
+- name: ISO/IEC 27001 certification
+- name: Network Diagram
+- name: Penetration Test Report
+- name: Data Processing Agreement
+subprocessors:
+- OpenAI
+- Datadog
+- SendGrid
+- Google Cloud
+- MongoDB
+ratings:
+- source: SecurityScorecard
+  grade: A
+evidence:
+- source: https://trust.junojourney.com/
+  keywords: [iso 27001, gdpr, ccpa, trust center, pentest report]
+notes: >-
+  Public trust center hosted at trust.junojourney.com. Publishes an ISO/IEC 27001
+  certification, GDPR and CCPA compliance posture, a network diagram, a penetration
+  test report, and a Data Processing Agreement. No security.txt or dedicated
+  vulnerability-disclosure policy was found at /.well-known/security.txt (404) or on
+  the trust page.
