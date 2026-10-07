@@ -1,0 +1,63 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.junojourney.com/pricing
+sources:
+- https://www.junojourney.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-seat
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Juno Growth
+published: true
+note: Page shows per-user monthly pricing on yearly plan for two cores plus +$3 add-ons; customer/partner
+  workspaces and bundle are quote-based. User-count bands (Up to 200 / 201 to 10K / 10K+) shown but no
+  band-specific prices in text.
+plan_count: 7
+currency: USD
+plans:
+- name: Juno Growth (Learning Experience Platform)
+  price_text: $8 per user / month, yearly plan
+  price: 8
+  currency: USD
+  period: month
+  unit: per user
+  included_quota: LXP, PDP, L&D Wallet, Jemma AI PDP Builder
+- name: 'Juno Growth add-on: Talent Development'
+  price_text: +$3
+  price: 3
+  currency: USD
+  period: month
+  unit: per user
+  included_quota: Career pathings & competency frameworks
+- name: Juno Training (Learning Management System)
+  price_text: $8 per user / month, yearly plan
+  price: 8
+  currency: USD
+  period: month
+  unit: per user
+  included_quota: LMS, AI Authoring Tool, 3 compliance trainings of your choice
+- name: 'Juno Training add-on: Engagement Surveys'
+  price_text: +$3
+  price: 3
+  currency: USD
+  period: month
+  unit: per user
+  included_quota: Engagement tracking and AI coaching
+- name: Bundle (Growth + Training)
+  price_text: 'Bundle price (Growth + Training): talk to a Juno rep.'
+  period: none
+- name: Juno for Customers
+  price_text: Talk to sales
+  period: none
+  unit: Annual active license package
+- name: Juno for Partners
+  price_text: Talk to sales
+  period: none
+  unit: Annual active license package
